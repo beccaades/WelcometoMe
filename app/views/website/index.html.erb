@@ -1,0 +1,15 @@
+<%= render 'shared/navigation' %>
+<h1>Who are you anyway?</h1>
+<p>All About Me!</p>
+
+<h1><%= link_to "http://beccaades.github.io/", class: 'btn btn-success' do %>
+      <i class="glyphicons glyphicons-pencil"></i> Learn it. Blog it.
+    <% end %>
+</h1>
+
+
+<h1><%= link_to projects_path, class: 'btn btn-success' do %>
+      <i class='fa fa-diamond'></i> Projects
+    <% end %>
+</h1>
+<h1><%= link_to "Interests", interests_path, class: 'btn btn-success' %></h1>
